@@ -1,0 +1,26 @@
+<div [@fadeInOnEnter]>
+
+    <h1>Geometry <br> Software</h1>
+
+    <h4>Informative design</h4>
+    <p>Geometry is a personal project made by Mike Safronov, a TypeScript Angular developer with seven years experience
+        in designing and coding based in Florianópolis, Brasil. In Geometry modern desktop and mobile applications are
+        developed with precision and tranquility.
+    </p>
+
+    <h4>Email</h4>
+    <p (click)="copy(email, 'Email')">{{email}}</p>
+
+    <h4 class="title">Phone</h4>
+    <p (click)="copy(phone, 'Phone')">{{phone}}</p>
+
+    <h4 class="title">Meet up for coffee</h4>
+    <p (click)="redirect(addressLink)">{{address}}</p>
+
+    <h4 class="title">GitHub</h4>
+    <p (click)="redirect(git)">{{git}}</p>
+
+    <h4 class="title">LinkedIn</h4>
+    <p (click)="redirect(linkedin)">{{linkedin}}</p>
+
+</div>

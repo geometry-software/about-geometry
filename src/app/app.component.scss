@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+@media (any-pointer: fine) {
+    .responsive {
+        width: 40vw;
+    }
+}
+
+@media (any-pointer: coarse) {
+    .responsive {
+        width: 100%;
+        padding: 0 18px;
+    }
+}
+
+.footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
+    padding-bottom: 50px;
+}

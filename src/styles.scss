@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #eee;
+    color: #444;
+}
+
+.mat-mdc-menu-panel {
+    border-radius: 8px !important;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 30px;
+    font-size: 2.5em;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+}
+
+h4 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 1.2em;
+    letter-spacing: 0.3px;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2em;
+    letter-spacing: 0.3px;
+}
+
+.link {
+    color: #2E86C1;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #2E86C1;
+    transition: all 0.2s ease-in-out;
+}
+
+.snackbar {
+    width: 10px !important;
+
+    .mat-button-wrapper {
+        width: 10px !important;
+    }
+}
+
+.mat-mdc-snack-bar-container .mdc-snackbar__surface {
+    text-align: center;
+    min-width: 120px !important;
+    border-radius: 26px !important;
+}

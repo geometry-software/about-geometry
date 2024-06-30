@@ -1,0 +1,13 @@
+<div class="layout">
+    <button mat-button [matMenuTriggerFor]="menu">
+        <span class="menu">Geometry</span>
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item *ngFor="let item of items" [routerLink]="item.link">
+            <span class="item">{{item.title }}</span>
+        </button>
+        <button mat-menu-item routerLink="">
+            <span class="about">About Geometry</span>
+        </button>
+    </mat-menu>
+</div>
